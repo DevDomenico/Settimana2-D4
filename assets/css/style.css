@@ -62,11 +62,22 @@
   .tabs{
     display: flex;
     justify-content: start;
+    border: 0px;
+    font-family: inherit;
+    color: inherit;
+    border-bottom: 1px solid lightgray;
+    width: 100%;
+    max-height: 50px;
+    padding-top: 2em;
+
+    
   }
   
   .icone {
-    padding: 0.3em;
-    margin-left: 15px;
+    
+  display: flex;
+  justify-content: center;
+  align-items: center;
   
   }
   .icone .icona {
@@ -108,6 +119,16 @@
     display: flex;
     align-items: center;
   }
+  .testo-articolo{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(117, 117, 117, 1);
+    font-size: 16px;
+    text-overflow: ellipsis;
+    font-weight: 400;
+    margin: 0;
+
+
+  }
 .articolo{
   display: flex;
   padding-left: 3em;
@@ -115,11 +136,45 @@
 }
 .lista-tags{
   display: flex;
-  justify-content: flex-start;
+  flex-direction: row;
   width: 50%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  color: rgba(117, 117, 117, 1);
+  padding-right: 6px;
+  
+  
+
+
 }
 .lista-icone{
   display: flex;
   justify-content: end;
   width: 50%;
+}
+.twitter-medium{
+margin-left: 70px;
+}
+
+.aside{
+  display: flex;
+  flex-direction: column;
+  
+}
+.aside>div{
+flex-grow: 1;
+}
+.tech{
+  background-color: lightgray;
+  display: inline-block;
+  border-radius: 25px;
+  padding:5px;
+  justify-content: space-between;
+  margin: 5px;
+}
+.topic{
+  justify-content: space-between;
+
+
 }
