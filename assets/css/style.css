@@ -148,6 +148,17 @@ main {
   display: flex;
   align-items: center;
 }
+.top-articolo{
+  font-size: 20px;
+  overflow: hidden;
+  color: rgba(41, 41, 41, 1);
+  font-family: Arial, Helvetica, sans-serif;
+  display: -webkit-box;
+  line-height: 20px;
+  box-sizing: inherit;
+  letter-spacing: 0;
+  max-height: 700;
+}
 
 .testo-articolo {
   font-family: Arial, Helvetica, sans-serif;
@@ -156,14 +167,14 @@ main {
   text-overflow: ellipsis;
   font-weight: 400;
   margin: 0;
-
-
 }
 
 .articolo {
   display: flex;
   padding-left: 3em;
   padding-right: 3em;
+  align-items: center;
+  box-sizing: inherit;
 }
 
 .lista-tags {
@@ -175,6 +186,8 @@ main {
   font-size: 13px;
   color: rgba(117, 117, 117, 1);
   padding-right: 6px;
+  box-sizing: inherit;
+  line-height: 20px;
 
 }
 
@@ -300,4 +313,7 @@ main {
   float: right;
   flex-direction: ;
 
+}
+.topic-titolo{
+  font-size: 18px;
 }
