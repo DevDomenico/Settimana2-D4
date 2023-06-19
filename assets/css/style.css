@@ -122,11 +122,12 @@ main {
   height: 100px;
 }
 
-.aside1{
+.aside1 {
   display: inline-block;
   margin-bottom: 450px;
-  
+
 }
+
 .aside {
   width: 30%;
 }
@@ -148,7 +149,8 @@ main {
   display: flex;
   align-items: center;
 }
-.top-articolo{
+
+.top-articolo {
   font-size: 20px;
   overflow: hidden;
   color: rgba(41, 41, 41, 1);
@@ -314,6 +316,7 @@ main {
   flex-direction: ;
 
 }
-.topic-titolo{
+
+.topic-titolo {
   font-size: 18px;
 }
